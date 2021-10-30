@@ -22,7 +22,7 @@ CREATE TABLE address_book(
 #Ability to insert new Contacts to Address Book
 #Query-:
 insert  into address_book(firstName,lastname,address,city,state,zip,phoneNo,email) values
- ('ashish','sahu','Balangir','BBSR','Odisha','543987','93929393','aaa@gmail.com'),
+ ('Surjya','Duan','Bargarh','BBSR','Odisha','768045','7894142663','aaa@gmail.com'),
  ('sanket','abc','Gandhi Road','Anagar','Maharastra','414039','343929393','abc@gmail.com'),
  ('aachal','makode','sb road','amravati','Maharastra','311030','783929393','xyz@gmail.com'),
  ('aaa','bbb',' road','mumbai','Maharastra','321030','723929393','xyzw@gmail.com');
@@ -36,7 +36,7 @@ UPDATE address_book
 SET 
     phoneNo = '9098765432'
 WHERE
-    firstName = 'ashish';
+    firstName = 'surjya';
 ---------------------------------------------
 
 UPDATE address_book 
