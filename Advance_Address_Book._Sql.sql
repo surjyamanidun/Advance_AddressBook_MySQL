@@ -112,5 +112,5 @@ select count(type) AS NumberOfaddress_book FROM address_book;
 #################################################################################################################################################
 #uc11
 #Ability to add person to both Friend and Family
-update  address_book set type='family' where firstName ='ashish';
-update  address_book set type='friend' where firstName ='ashish';
+update  address_book set type='family' where firstName ='Surjya';
+update  address_book set type='friend' where firstName ='Surjya';
